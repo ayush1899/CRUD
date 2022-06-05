@@ -10,8 +10,17 @@ public class Product {
     private Integer id;
     private String name;
     private float price;
+    private Integer catId;
  
-    public Product() {
+    public Integer getCatId() {
+		return catId;
+	}
+
+	public void setCatId(Integer catId) {
+		this.catId = catId;
+	}
+
+	public Product() {
     }
  
     public Product(Integer id, String name, float price) {
